@@ -1,0 +1,110 @@
+footer{
+    margin-top: 60px;
+    background-color: #f7f7f7;
+
+    ul.footer_menu{
+        margin-top: 30px;
+        padding-top: 30px;
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+        li{
+            display: inline-block;
+            padding-right: 70px;
+            a{
+                display: block;
+                color: #605147;
+                font-family: Baufra-Medium;
+                font-size: 24px;
+                font-weight: 500;
+
+                letter-spacing: 0.24px;
+            }
+            &:nth-child(2){
+                padding-right: 100px;
+            }
+        }
+    }
+    .contacts{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        align-items: center;
+        .logo{
+            position: relative;
+            width: 175px;
+            height: 70px;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                top: 20px;
+            }
+        }
+        .socials{
+          h3{     
+               color: #605147;
+            font-family: Baufra-SemiBold;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 0.24px;
+            margin-bottom: 17px;
+letter-spacing: 0.24px;
+          }
+          .social_links{
+              display: table;
+              border-spacing: 15px 15px;
+              a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #605147;
+    display: table-cell;
+    border-collapse: separate;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+              }
+          }
+        }
+    }
+    .subscribe{
+        position: relative;
+        h2{
+        color: #605147;
+font-family: Baufra-SemiBold;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0.24px;
+        }
+        input{
+            border: none;
+            background-color: #f7f7f7;
+            border-bottom: 1px solid #000000;
+            width: 100%;
+            margin-top: 25px;
+            color: #605147;
+            font-family: Baufra-Medium;
+            font-size: 24px;
+            font-weight: 400;
+            letter-spacing: 0.24px;
+            position: relative;
+        }
+        img{
+            cursor: pointer;
+            position: absolute;
+            bottom: 3px;
+            right: 0;
+        }
+    }
+    .copyright{
+        text-align: center;
+        h5{
+            margin-top: 40px;
+            color: #605147;
+            font-family: Baufra-Medium;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.12px;
+        }
+    }
+}

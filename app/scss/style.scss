@@ -1,0 +1,14 @@
+@import "base/_reset";
+@import "base/_fonts";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_content";
+@import "layout/_media";
+
+.wrapper{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.main-wrapper{
+    overflow: hidden;
+}
